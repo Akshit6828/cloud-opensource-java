@@ -18,7 +18,7 @@
     <dependency>
       <groupId>com.google.cloud.tools</groupId>
       <artifactId>dependencies</artifactId>
-      <version>1.5.13-SNAPSHOT</version>
+      <version>1.5.14-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -38,7 +38,7 @@
           <configuration>
             <!-- To avoid ForkedBooter loading issue -->
             <useSystemClassLoader>false</useSystemClassLoader>
-            <argLine>-Xms128m -Xmx2048m</argLine>
+            <argLine>-Xms128m -Xmx4g</argLine>
             <trimStackTrace>false</trimStackTrace>
           </configuration>
         </plugin>
